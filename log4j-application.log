@@ -1,0 +1,39 @@
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #34 took place #4
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #35 took place #3
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #37 took place #2
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #36 took place #2
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #13 took place #1
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #13 : 1 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #25 took place #5
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #37 : 2 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #26 took place #6
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #35 : 3 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #23 took place #7
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #34 : 4 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #22 took place #8
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #36 : 2 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #21 took place #9
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #23 : 7 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #20 took place #10
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #21 : 9 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #17 took place #11
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #25 : 5 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #19 took place #12
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #26 : 6 place released
+2019-01-12 20:49:11 INFO  Car:23 - CAR: Car #18 took place #13
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #33 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #31 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #27 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #15 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #32 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #14 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #29 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #24 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #30 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #28 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:26 - CAR:Car #16 lost ->:WAITING TIME IS LOST
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #17 : 11 place released
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #22 : 8 place released
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #20 : 10 place released
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #18 : 13 place released
+2019-01-12 20:49:11 INFO  Car:30 - CAR: Car #19 : 12 place released

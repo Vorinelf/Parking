@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Maven: log4j:log4j:1.2.17" type="repository">
+    <properties maven-id="org.apache.maven.surefire:surefire-logger-api:2.20" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
