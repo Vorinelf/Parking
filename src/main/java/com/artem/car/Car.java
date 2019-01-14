@@ -6,13 +6,30 @@ import com.artem.parking.Parking;
 import com.artem.parking.Place;
 import org.apache.log4j.Logger;
 
+import java.util.concurrent.CountDownLatch;
+
 public class Car extends Thread {
     private static Logger loggerCar = Logger.getLogger(Car.class);
+    private final int timeForCar;
+    private final int numberCar;
+    private CountDownLatch countDown;
     private boolean reading = false;
     private Parking<Place> parking;
 
-    public Car(Parking<Place> parking) {
+
+    public int getTimeForCar() {
+        return timeForCar;
+    }
+
+    public int getNumberCar() {
+        return numberCar;
+    }
+
+    public Car(Parking<Place> parking, int timeForCar, int numberCar) {
         this.parking = parking;
+        this.timeForCar = timeForCar;
+        this.numberCar = numberCar;
+        this.countDown = new CountDownLatch(timeForCar);
     }
 
     public void run() {
@@ -20,14 +37,18 @@ public class Car extends Thread {
         try {
             place = parking.getResource(500);
             reading = true;
-            loggerCar.info("CAR: Car #" + this.getId() + " took place #" + place.getNumberPlace());
+            loggerCar.info("CAR: Car #" + getNumberCar() + " took place #" + place.getNumberPlace());
             place.using();
+            countDown.await();
+
         } catch (PossibleException e) {
-            loggerCar.info("CAR:Car #" + this.getId() + " lost ->" + e.getMessage());
+            loggerCar.info("CAR:Car #" + getNumberCar() + " lost ->" + e.getMessage());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         } finally {
             if (place != null) {
                 reading = false;
-                loggerCar.info("CAR: Car #" + this.getId() + " : " + place.getNumberPlace() + " place released");
+                loggerCar.info("CAR: Car #" + getNumberCar() + " : " + place.getNumberPlace() + " place released");
                 parking.returnResource(place);
             }
         }
@@ -36,5 +57,9 @@ public class Car extends Thread {
 
     public boolean isReading() {
         return reading;
+    }
+
+    public CountDownLatch getCountDownLanch() {
+        return countDown;
     }
 }

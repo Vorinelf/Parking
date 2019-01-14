@@ -9,8 +9,9 @@ import java.util.LinkedList;
 
 
 public class Parking<T> {
-    private final static int POOL_SIZE = 5;
-    private final Semaphore semaphore = new Semaphore(POOL_SIZE, true);
+    private final static int PlaceSize = 2;
+    private final Semaphore semaphore = new Semaphore(PlaceSize, true);
+
     private final Queue<T> resources = new LinkedList<T>();
 
     public Parking(Queue<T> source) {
