@@ -36,7 +36,6 @@ public class Car extends Thread {
         Place place = null;
         try {
             place = parking.getResource(500);
-            reading = true;
             loggerCar.info("CAR: Car #" + getNumberCar() + " took place #" + place.getNumberPlace());
             place.using();
             countDown.await();
@@ -47,7 +46,6 @@ public class Car extends Thread {
             e.printStackTrace();
         } finally {
             if (place != null) {
-                reading = false;
                 loggerCar.info("CAR: Car #" + getNumberCar() + " : " + place.getNumberPlace() + " place released");
                 parking.returnResource(place);
             }

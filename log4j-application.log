@@ -15,3 +15,54 @@
 2019-01-14 19:41:54 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 2 hour(s)
 2019-01-14 19:41:54 INFO  Car:51 - CAR: Car #3 : 2 place released
 2019-01-14 19:41:55 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 3 hour(s)
+2019-01-14 20:51:16 INFO  Car:40 - CAR: Car #1 took place #1
+2019-01-14 20:51:16 INFO  Car:40 - CAR: Car #3 took place #2
+2019-01-14 20:51:16 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 1 hour(s)
+2019-01-14 20:51:16 INFO  Car:45 - CAR:Car #2 lost ->:WAITING TIME IS LOST
+2019-01-14 20:51:17 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 2 hour(s)
+2019-01-14 20:51:17 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 3 hour(s)
+2019-01-14 20:51:18 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 4 hour(s)
+2019-01-14 20:51:18 INFO  Car:51 - CAR: Car #1 : 1 place released
+2019-01-14 20:51:18 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 5 hour(s)
+2019-01-14 20:51:19 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 1 hour(s)
+2019-01-14 20:51:19 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 2 hour(s)
+2019-01-14 20:51:20 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 3 hour(s)
+2019-01-14 20:51:20 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 4 hour(s)
+2019-01-14 20:51:21 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 1 hour(s)
+2019-01-14 20:51:21 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 2 hour(s)
+2019-01-14 20:51:21 INFO  Car:51 - CAR: Car #3 : 2 place released
+2019-01-14 20:51:22 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 3 hour(s)
+2019-01-14 20:51:28 INFO  Car:40 - CAR: Car #3 took place #2
+2019-01-14 20:51:28 INFO  Car:40 - CAR: Car #1 took place #1
+2019-01-14 20:51:28 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 1 hour(s)
+2019-01-14 20:51:28 INFO  Car:45 - CAR:Car #2 lost ->:WAITING TIME IS LOST
+2019-01-14 20:51:29 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 2 hour(s)
+2019-01-14 20:51:29 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 3 hour(s)
+2019-01-14 20:51:30 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 4 hour(s)
+2019-01-14 20:51:30 INFO  Car:51 - CAR: Car #1 : 1 place released
+2019-01-14 20:51:30 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 5 hour(s)
+2019-01-14 20:51:31 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 1 hour(s)
+2019-01-14 20:51:31 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 2 hour(s)
+2019-01-14 20:51:32 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 3 hour(s)
+2019-01-14 20:51:32 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 4 hour(s)
+2019-01-14 20:51:33 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 1 hour(s)
+2019-01-14 20:51:33 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 2 hour(s)
+2019-01-14 20:51:33 INFO  Car:51 - CAR: Car #3 : 2 place released
+2019-01-14 20:51:34 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 3 hour(s)
+2019-01-14 20:56:21 INFO  Car:39 - CAR: Car #2 took place #1
+2019-01-14 20:56:21 INFO  Car:39 - CAR: Car #3 took place #2
+2019-01-14 20:56:22 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 1 hour(s)
+2019-01-14 20:56:22 INFO  Car:44 - CAR:Car #1 lost ->:WAITING TIME IS LOST
+2019-01-14 20:56:22 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 2 hour(s)
+2019-01-14 20:56:23 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 3 hour(s)
+2019-01-14 20:56:23 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 4 hour(s)
+2019-01-14 20:56:24 INFO  TimerCar:31 - TimerCar: Car #1 stand on the place 5 hour(s)
+2019-01-14 20:56:24 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 1 hour(s)
+2019-01-14 20:56:25 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 2 hour(s)
+2019-01-14 20:56:25 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 3 hour(s)
+2019-01-14 20:56:25 INFO  Car:49 - CAR: Car #2 : 1 place released
+2019-01-14 20:56:26 INFO  TimerCar:31 - TimerCar: Car #2 stand on the place 4 hour(s)
+2019-01-14 20:56:26 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 1 hour(s)
+2019-01-14 20:56:27 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 2 hour(s)
+2019-01-14 20:56:27 INFO  Car:49 - CAR: Car #3 : 2 place released
+2019-01-14 20:56:27 INFO  TimerCar:31 - TimerCar: Car #3 stand on the place 3 hour(s)
